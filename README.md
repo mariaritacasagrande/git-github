@@ -19,7 +19,7 @@
 * [Merge](#merge)
 * [Fork](#fork)
 * [Pull request](#pull-request)
-* [Exercício](#exercicio-página-pessoal)
+* [Exercício](#exercício)
 * [Como configurar a sua conta de GitHub na sua máquina](#como-configurara-a-sua-conta-de-GitHub-na-sua-máquina)
 * [Links com mais conteúdo para consulta](#links-com-mais-conteúdo-para-consulta)
 
