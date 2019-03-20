@@ -102,6 +102,22 @@ cls – limpa o terminal
 
 ```
 
+No Linux:
+
+```
+ls – lista arquivos e diretórios 
+cd ou chdir - se apenas digitado, mostra na tela a unidade e pasta atual
+cd – muda o diretório atual(equivalente a abrir uma pasta no ambiente gráfico)
+cd ~ - volta para a raiz
+cd . - volta uma pasta acima
+cd nome-da-pasta - para entrar em uma pasta (você precisa conseguir enxergar ela quando listar os arquivos)
+pwd – mostra qual é o diretório atual
+mkdir – cria um diretório
+whoami - “quem sou eu?” identifica o usuário que está mexendo no sistema. 
+clear – limpa a tela
+
+```
+
 ***
 
 ### Começando com o Git
@@ -120,6 +136,13 @@ Algumas palavras novas que vamos usar com o Git/GitHub
 
 * Clone: O comando clone faz exatamente o que ele sugere: uma cópia exata do arquivo, que você vai baixar do repositório remoto para a sua máquina.
 
+* Log - Este comando retornará uma listagem dos últimos commits com o hash de identificação, a data e também o usuário que foi responsável pelo commit.
+
+* Checkout:  O git checkout branch pode ser usado nas seguintes situações: Mudar de branch, Criar uma nova branch, Criar localmente uma branch remota e para voltar arquivos que já foram adicionados e estão modificados (em caso de erros por exemplo).
+
+* Reset HEAD: serve para voltar untracked files
+
+
 ***
 
 ### Fluxo do git
@@ -136,10 +159,10 @@ Cada etiqueta vai gerando um ponto na nossa timeline. Essa etiqueta se chama com
 ### Instalando/verificando se o Git está instalado
 
 Digite git status na linha de comando, e várias instruções e sugestões do git devem aparecer.
- Comandos para usar uma vez na vida: (assim o git sabe quem está fazendo as alterações) 
+Comandos para usar uma vez na vida: (assim o git sabe quem está fazendo as alterações)
 
 ```
-git config --global user.name “Maria Rita Casagrande" 
+git config --global user.name “Maria Rita Casagrande"
 git config --global user.email “mariarita@gmail.com”
 ```
 
@@ -267,8 +290,8 @@ Um fork é uma cópia de um projeto de outra pessoa dentro do seu GitHub. É com
 
 Normalmente você faz um fork de um projeto para fazer melhorias no código. Depois das melhorias feitas, você vai abrir um pull request para o dono do repositório, e se suas modificações forem aceitas, seu código vai ser 'mergeado' no código original.
 
-https://github.com/octocat/Spoon-Knife
-https://github.com/octocat/Spoon-Knife/pulls
+- https://github.com/octocat/Spoon-Knife
+- https://github.com/octocat/Spoon-Knife/pulls
 
 ***
 
@@ -279,18 +302,19 @@ Quando você faz um fork de um projeto, ou quando você trabalha em uma empresa 
 Um pull request é quando você quer fazer merge do seu código em outro branch, mas você precisa da autorização das outras pessoas envolvidas no projeto.
 
 ***
-
 ### Como configurar a sua conta de GitHub na sua máquina
 
+http://gabsferreira.com/instalando-o-git-e-configurando-github/ (em português)
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ (em inglês)
-
 
 ***
 
 ### Links com mais conteúdo para consulta
-
+- Guia Prático de Git - https://rogerdudler.github.io/git-guide/index.pt_BR.html
 - Git e Github (textos e vídeos): https://guides.github.com/activities/hello-world/
 - Curso Gratuito - https://www.udemy.com/git-e-github-para-iniciantes/
 - Live Mastertech “Guia Completo de Git” - https://www.youtube.com/watch?v=BWjcsuxFUmQ
 - Live Mastertech “Github na prática” - https://www.youtube.com/watch?v=pcNX1VqC8Po
 - Tutorial Code School - https://www.codeschool.com/courses/try-git
+- Documentação : https://git-scm.com/book/pt-br/v1/Primeiros-passos
+
