@@ -27,11 +27,11 @@
 ### O que é Git?
 ![Mockup](images/git.png)
 
-É um programa open source de controle de versão de código, criado pelo mesmo desenvolvedor do Linux.
+Git é uma ferramenta de controle de versão com foco em velocidade e integridade de dados. Criado por Linus Torvalds, o mesmo desenvolvedor do linux. O Git permite que você faça umas coisas bem cabulosas.
 Com o GIT podemos desenvolver projetos colaborativos, onde outras pessoas podem trabalhar simultaneamente no mesmo código sem riscos de perdermos nada do nosso trabalho.
 Com o Git também conseguimos ter um histórico de tudo que foi alterado nos arquivos ao longo do tempo, além de mostrar quem foi o autor da mudança.
 Se formos utilizar um exemplo para exemplificar o Git, podemos dizer que ele usa a mesma lógica do Google Drive. Várias pessoas trabalhando simultaneamente no mesmo arquivo, adicionando e removendo conteúdos, além de termos a opção de consultar o histórico do que e quando foi modificado.
-
+Você pode usar Git com o Github e também com o Bitbucket e Codeplane, pra citar alguns.
 ***
 
 ### Por que o Git é importante?
@@ -45,7 +45,8 @@ Se formos utilizar um exemplo para exemplificar o Git, podemos dizer que ele usa
 ### O que é GitHub?
 ![Mockup](images/github.png)
 
-É uma espécie de rede social muito utilizada principalmente por desenvolvedores, onde você pode publicar e compartilhar todos os seus projetos pessoais e particulares, além de colaborar com projetos de pessoas e empresas de todo o mundo.
+Github é um site que permite que você hospede seus repositórios(projetos) usando o Git lá. Outras pessoas podem ver seus projetos, baixa-los, olhar o seu código. E você também pode ver o código dos outros, participar de projetos e seguir outros desenvolvedores. 
+Funciona como uma espécie de rede social muito utilizada principalmente por desenvolvedores, onde você pode publicar e compartilhar todos os seus projetos pessoais e particulares, além de colaborar com projetos de pessoas e empresas de todo o mundo.
 É uma forma mais visual de trabalhar com o Git, pois possui uma interface gráfica e também apps para desktop.
 Você pode salvar todos seus projetos de forma pública no seu perfil (qualquer pessoa, mesmo sem ter uma conta pode ver e baixar tudo o que você publicar), e de forma privada (somente membros com permissão de acesso podem visualizar ou baixar seu projeto) a partir de $7/m.
 O GitHub é uma startup americana e recentemente foi adquirido por $7.5 bilhões (isso mesmo, [bilhões](https://techcrunch.com/2018/06/04/microsoft-has-acquired-github-for-7-5b-in-microsoft-stock/)) pela Microsoft.
@@ -86,14 +87,19 @@ Por ter uma interface visual, a curva de aprendizado do Git com essa ferramenta 
 
 Esses comandos servem para para listar arquivos e navegar entre pastas dentro do computador.
 
+No Windows:
+
 ```
-ls - LISTAR (ele traz uma lista de tudo o que está naquela pasta - documentos, outras pastas, etc) 
-pwd - Present working directory (onde estou?) Ele traz todo o caminho onde você está (em que pasta e onde essa pasta fica)
+dir - lista (ele traz uma lista de tudo o que está naquela pasta - documentos, outras pastas, etc) 
+cd ou chdir - se apenas digitado, mostra na tela a unidade e pasta atual
 cd - change directory (use para se locomover entre as pastas)
-cd ~ - volta para a raiz
-cd . - volta uma pasta acima
-cd nome-da-pasta - para entrar em uma pasta (você precisa conseguir enxergar ela quando listar os arquivos)
-whoami - "quem sou eu?" identifica o usuário que está mexendo no sistema.
+cd \ - volta para a raiz
+cd . . - volta uma pasta acima
+mkdir nome-do-diretorio - cria diretório 
+dir > nome.txt nome-do-arquivo.extensão - criar arquivo 
+whoami - “quem sou eu?” identifica o usuário que está mexendo no sistema. 
+cls – limpa o terminal
+
 ```
 
 ***
