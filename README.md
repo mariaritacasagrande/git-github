@@ -19,6 +19,7 @@
 * [Merge](#merge)
 * [Fork](#fork)
 * [Pull request](#pull-request)
+* [Exercício](#exercicio-página-pessoal)
 * [Como configurar a sua conta de GitHub na sua máquina](#como-configurara-a-sua-conta-de-GitHub-na-sua-máquina)
 * [Links com mais conteúdo para consulta](#links-com-mais-conteúdo-para-consulta)
 
@@ -300,6 +301,16 @@ Normalmente você faz um fork de um projeto para fazer melhorias no código. Dep
 Quando você faz um fork de um projeto, ou quando você trabalha em uma empresa com mais desenvolvedores, é normal que as demais pessoas envolvidas no projeto façam um review do seu código antes de ele ir pro master, afinal você pode ter cometido algum erro no desenvolvimento, ou alguma parte do seu código pode ser melhorada.
 
 Um pull request é quando você quer fazer merge do seu código em outro branch, mas você precisa da autorização das outras pessoas envolvidas no projeto.
+
+***
+
+### Exercício 
+
+Página Pessoal ( Git, Github, Github Pages, HTML e CSS)
+
+
+https://github.com/mariaritacasagrande/Exercicio-de-Git-Pagina-Pessoal
+
 
 ***
 ### Como configurar a sua conta de GitHub na sua máquina
