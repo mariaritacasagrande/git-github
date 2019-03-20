@@ -71,7 +71,7 @@ Mexer com o terminal assusta um pouco porque ele não é nem um pouco visual. Ma
 Sabe quando a gente arrasta arquivos para uma pasta ou cria uma pasta nova? No terminal você faz tudo isso também, mas sem interface gráfica. A gente insere comandos, e ele executa.
 
 ### Por que a linha de comando é importante?
- Na linha de comando você controla melhor o que está rolando com o seu computador - inclusive o versionamento. O git é sempre usado através de linha de comando. (O GitHub tem ferramentas visuais para uso do Git, mas é importante saber se virar pela linha de comando)
+Na linha de comando você controla melhor o que está rolando com o seu computador - inclusive o versionamento. O git é sempre usado através de linha de comando. (O GitHub tem ferramentas visuais para uso do Git, mas é importante saber se virar pela linha de comando)
 
 ***
 
@@ -139,14 +139,14 @@ Digite git status na linha de comando, e várias instruções e sugestões do gi
  Comandos para usar uma vez na vida: (assim o git sabe quem está fazendo as alterações) 
 
 ```
-git config --global user.name “Patricia Tonella" 
-git config --global user.email “patricia.tonella@gmail.com”
+git config --global user.name “Maria Rita Casagrande" 
+git config --global user.email “mariarita@gmail.com”
 ```
 
 Para remover o usuário
 ```
-git config --global --unset-all user.name "Patricia Tonella"
-git config --global --unset-all user.email “patricia.tonella@gmail.com”
+git config --global --unset-all user.name "Maria Rita Casagrande"
+git config --global --unset-all user.email “mariarita@gmail.com”
 ```
 
 ***
@@ -289,8 +289,8 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ (e
 
 ### Links com mais conteúdo para consulta
 
--Git e Github (textos e vídeos): https://guides.github.com/activities/hello-world/
--Curso Gratuito - https://www.udemy.com/git-e-github-para-iniciantes/
--Live Mastertech “Guia Completo de Git” - https://www.youtube.com/watch?v=BWjcsuxFUmQ
--Live Mastertech “Github na prática” - https://www.youtube.com/watch?v=pcNX1VqC8Po
--Tutorial Code School - https://www.codeschool.com/courses/try-git
+- Git e Github (textos e vídeos): https://guides.github.com/activities/hello-world/
+- Curso Gratuito - https://www.udemy.com/git-e-github-para-iniciantes/
+- Live Mastertech “Guia Completo de Git” - https://www.youtube.com/watch?v=BWjcsuxFUmQ
+- Live Mastertech “Github na prática” - https://www.youtube.com/watch?v=pcNX1VqC8Po
+- Tutorial Code School - https://www.codeschool.com/courses/try-git
